@@ -29,3 +29,12 @@ body {
 footer {
     padding: 20px 0;
 }
+.button {
+    padding: 12px 24px; /* Larger padding */
+    font-size: 16px; /* Bigger text */
+}
+
+.link {
+    padding: 12px 0; /* Vertical padding */
+    font-size: 16px; /* Bigger text */
+}

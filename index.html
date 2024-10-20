@@ -33,7 +33,13 @@
                         <th class="py-3 px-4">ID</th>
                     </tr>
                 </thead>
-                <tbody id="products-table-body" class="text-gray-700"></tbody>
+                <tbody id="products-table-body" class="text-gray-700">
+                    <tr class="hover:bg-gray-200 cursor-pointer">
+                        <td class="py-3 px-4">Product Name</td>
+                        <td class="py-3 px-4">Product ID</td>
+                    </tr>
+                </tbody>
+                
             </table>
         </div>
 
@@ -44,7 +50,8 @@
         </div>
         <div id="msdl-processing-error" class="hidden bg-red-100 text-red-800 p-4 rounded mb-4">
             <h2 class="font-semibold">Error</h2>
-            <p>An error has occurred while processing your request. If reloading the page does not work, <a href="https://tech-latest.com/contact-us/" class="text-blue-600 hover:underline">contact us</a> or create an issue on GitHub.</p>
+            <p>An error has occurred while processing your request. If reloading the page does not work, <a href="https://tech-latest.com/contact-us/" class="text-blue-600 hover:underline text-lg">contact us</a>
+                or create an issue on GitHub.</p>
         </div>
         <div id="back-to-products">
             <button class="bg-gray-300 text-gray-700 px-4 py-2 rounded hover:bg-gray-400 mt-4" onClick="backToProducts();">Go back to the product list</button>
